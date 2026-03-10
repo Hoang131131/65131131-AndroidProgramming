@@ -1,6 +1,8 @@
 package till.edu.tong2so;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +22,19 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    public void XuLyCong(View view ){
+        EditText editTextSoA =findViewById(R.id.edtA);
+        EditText editTextSoB =findViewById(R.id.edtB);
+        EditText editTextKetQua =findViewById(R.id.Tong);
+
+        String A = editTextSoA.getText().toString();
+        String B = editTextSoB.getText().toString();
+        int a = Integer.parseInt(A);
+        int b = Integer.parseInt(B);
+        int Tong = a+b;
+        String TONG = String.valueOf(Tong);
+        editTextKetQua.setText(TONG);
     }
 }
