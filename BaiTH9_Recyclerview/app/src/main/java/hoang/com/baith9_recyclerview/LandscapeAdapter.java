@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -50,13 +51,25 @@ public class LandscapeAdapter extends RecyclerView.Adapter<LandscapeAdapter.Item
         return landscapes.size();
     }
 
-    class ItemLandscapeHolder extends RecyclerView.ViewHolder{
+    class ItemLandscapeHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
         TextView Caption;
         ImageView Image;
         public ItemLandscapeHolder(@NonNull View itemView) {
             super(itemView);
                 Caption = itemView.findViewById(R.id.txtName);
                 Image = itemView.findViewById(R.id.imgPlace);
+                itemView.setOnClickListener(this);
+        }
+
+
+        @Override
+        public void onClick(View v) {
+            int viTriDuocClick = getAdapterPosition();
+            Landscape phanTuDuocClick = landscapes.get(viTriDuocClick);
+            String ten = phanTuDuocClick.getName();
+            String tenFile = phanTuDuocClick.getImg();
+            String chuoithongbao = "Bạn vừa chọn vào: " + ten;
+            Toast.makeText(v.getContext(), chuoithongbao, Toast.LENGTH_LONG).show();
         }
     }
 }

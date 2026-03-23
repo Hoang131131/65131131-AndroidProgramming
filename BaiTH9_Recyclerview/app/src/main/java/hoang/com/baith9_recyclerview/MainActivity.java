@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -33,8 +34,17 @@ public class MainActivity extends AppCompatActivity {
 
         recyclerlandscapes = getDataforRecyclerView();
         recyclerViewlandscape = findViewById(R.id.ls);
+
+
         RecyclerView.LayoutManager layoutLinear = new LinearLayoutManager(this);
         recyclerViewlandscape.setLayoutManager(layoutLinear);
+
+
+//        RecyclerView.LayoutManager LayoutGrid = new GridLayoutManager(this, 2);
+//        recyclerViewlandscape.setLayoutManager(LayoutGrid);
+
+
+
         landscapeAdapter = new LandscapeAdapter(this, recyclerlandscapes);
         recyclerViewlandscape.setAdapter(landscapeAdapter);
 
