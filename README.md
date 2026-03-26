@@ -5,7 +5,7 @@
     <!-- BÊN TRÁI -->
     <td width="60%" valign="top">
 
-### <a href="./BaiTH1">Bài TH1: Tạo ứng dụng HelloWorld</a>
+### <a href="./HelloWorld">Bài TH1: Tạo ứng dụng HelloWorld</a>
 
 - Tạo project Android đầu tiên  
 - Hiển thị "Hello World"  
@@ -15,7 +15,7 @@
 
     <!-- BÊN PHẢI -->
     <td width="40%">
-      <img src="./images/bai1.png" width="100%">
+      <img src="./Media/bai1.png" width="100%">
     </td>
   </tr>
 </table>
