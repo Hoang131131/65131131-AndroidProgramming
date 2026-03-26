@@ -6,7 +6,9 @@
 <table>
 <tr>
 <td width="60%" valign="top">
-- Tạo ứng dụng HelloWorld
+<ul>
+  <li>Tạo ứng dụng HelloWorld</li>
+</ul>
 </td>
 <td width="40%">
 <img src="./Media/bai1.png" width="100%">
