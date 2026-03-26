@@ -23,9 +23,11 @@
 <table>
 <tr>
 <td width="60%" valign="top">
-- Thiết kế giao diện  
-- Xử lý sự kiện onClick  
-- Tính tổng 2 số  
+<ul>
+  <li>Thiết kế giao diện</li>
+  <li>Xử lý sự kiện onClick </li>
+  <li>Tính tổng 2 số</li>
+</ul>
 </td>
 <td width="40%">
 <img src="./Media/bai2.png" width="100%">
@@ -40,7 +42,9 @@
 <table>
 <tr>
 <td width="60%" valign="top">
-- Tạo 3 nút bấm với LinearLayout
+<ul>
+  <li>Tạo 3 nút bấm với LinearLayout</li>
+</ul>
 </td>
 <td width="40%">
 <img src="./Media/bai3.png" width="100%">
@@ -55,7 +59,9 @@
 <table>
 <tr>
 <td width="60%" valign="top">
-- Giao diện cộng trừ nhân chia
+<ul>
+  <li>Giao diện cộng trừ nhân chia</li>
+</ul>
 </td>
 <td width="40%">
 <img src="./Media/bai4.png" width="100%">
@@ -70,7 +76,9 @@
 <table>
 <tr>
 <td width="60%" valign="top">
-- Xử lý cộng trừ nhân chia
+<ul>
+  <li>Xử lý cộng trừ nhân chia</li>
+</ul>
 </td>
 <td width="40%">
 <img src="./Media/bai5.png" width="100%">
@@ -85,7 +93,9 @@
 <table>
 <tr>
 <td width="60%" valign="top">
-- Xử lý sự kiện tính tổng
+<ul>
+  <li>Xử lý sự kiện tính tổng</li>
+</ul>
 </td>
 <td width="40%">
 <img src="./Media/bai6.png" width="100%">
@@ -100,7 +110,9 @@
 <table>
 <tr>
 <td width="60%" valign="top">
-- Làm việc với ListView
+<ul>
+  <li>Làm việc với ListView</li>
+</ul>
 </td>
 <td width="40%">
 <img src="./Media/bai7.png" width="100%">
@@ -115,7 +127,9 @@
 <table>
 <tr>
 <td width="60%" valign="top">
-- Custom ListView
+<ul>
+  <li>Custom ListView</li>
+</ul>
 </td>
 <td width="40%">
 <img src="./Media/bai8.png" width="100%">
@@ -130,7 +144,9 @@
 <table>
 <tr>
 <td width="60%" valign="top">
-- Làm việc với RecyclerView
+<ul>
+  <li>Làm việc với RecyclerView</li>
+</ul>
 </td>
 <td width="40%">
 <img src="./Media/bai9.png" width="100%">
@@ -145,7 +161,9 @@
 <table>
 <tr>
 <td width="60%" valign="top">
-- Tạo background bằng drawable
+<ul>
+  <li>Tạo background bằng Drawable</li>
+</ul>
 </td>
 <td width="40%">
 <img src="./Media/drawable.png" width="100%">
@@ -162,8 +180,10 @@
 <table>
 <tr>
 <td width="60%" valign="top">
-- Gọi API OpenWeather  
-- Hiển thị thời tiết  
+<ul>
+  <li>Gọi API OpenWeather</li>
+  <li>Hiển thị thời tiết</li>
+</ul>
 </td>
 <td width="40%">
 <img src="./Media/api.png" width="100%">
@@ -178,8 +198,10 @@
 <table>
 <tr>
 <td width="40%" valign="top">
-- Đọc RSS VNExpress  
-- Hiển thị bằng WebView  
+<ul>
+  <li>Đọc RSS VNExpres</li>
+  <li>Hiển thị bằng WebView</li>
+</ul>
 </td>
 <td width="30%">
 <img src="./Media/news.png" width="100%">
