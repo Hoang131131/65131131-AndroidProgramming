@@ -1,25 +1,25 @@
 # Trần Hưng Bảo Hoàng 65131131
 
 <details>
-  <summary>
-    <a href="./HelloWorld"><b>Bài TH1: Tạo ứng dụng HelloWorld</b></a>
-  </summary>
+<summary>
+<a href="./HelloWorld"><b>Bài TH1: Tạo ứng dụng HelloWorld</b></a>
+</summary>
 
-  <br>
+<br>
 
-  <table>
-    <tr>
-      <td width="60%" valign="top">
+<table>
+<tr>
+<td width="60%" valign="top">
 
 - Tạo ứng dụng HelloWorld
 
-      </td>
+</td>
 
-      <td width="40%">
-        <img src="./Media/bai1.png" width="100%">
-      </td>
-    </tr>
-  </table>
+<td width="40%">
+<img src="./Media/bai1.png" width="100%">
+</td>
+</tr>
+</table>
 
 </details>
 
