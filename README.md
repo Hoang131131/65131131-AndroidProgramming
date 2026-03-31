@@ -293,7 +293,7 @@
 </ul>
 </td>
 <td width="40%">
-<img src="./Media/yt.png" width="100%">
+<img src="./Media/youtube.png" width="100%">
 </td>
 </tr>
 </table>
