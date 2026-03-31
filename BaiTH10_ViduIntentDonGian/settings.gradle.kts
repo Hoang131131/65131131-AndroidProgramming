@@ -24,3 +24,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "BaiTH10_ViduIntentDonGian"
 include(":app")
+ 
