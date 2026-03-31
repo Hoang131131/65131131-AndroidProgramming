@@ -295,7 +295,6 @@
 <td width="40%">
 <img src="./Media/yt.png" width="100%">
 </td>
-</td>
 </tr>
 </table>
 </details>
