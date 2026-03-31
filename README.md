@@ -281,3 +281,21 @@
 </tr>
 </table>
 </details>
+
+<details>
+<summary><a href="./Youtube/"><b>Youtube Bottom Navigation Bar</b></a></summary>
+<br>
+<table>
+<tr>
+<td width="60%" valign="top">
+<ul>
+  <li>Bottom Navigation Bar</li>
+</ul>
+</td>
+<td width="40%">
+<img src="./Media/yt.png" width="100%">
+</td>
+</td>
+</tr>
+</table>
+</details>
