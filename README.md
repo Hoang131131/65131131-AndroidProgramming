@@ -183,7 +183,7 @@
 </ul>
 </td>
 <td width="40%">
-<img src="./Media/bai10.png" width="100%">
+<img src="./Media/bai11.png" width="100%">
 </td>
 </tr>
 </table>
