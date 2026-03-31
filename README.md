@@ -172,6 +172,75 @@
 </table>
 </details>
 
+<details>
+<summary><a href="./BaiTH10_ViduIntentDonGian/"><b>Bài TH10: Ví dụ Intent đơn giản</b></a></summary>
+<br>
+<table>
+<tr>
+<td width="60%" valign="top">
+<ul>
+  <li>Vidu1 trên phần Intent</li>
+</ul>
+</td>
+<td width="40%">
+<img src="./Media/bai10.png" width="100%">
+</td>
+</tr>
+</table>
+</details>
+
+<details>
+<summary><a href="./BaiTH11FragmentTinh/"><b>Bài TH11: Fragment Tinh</b></a></summary>
+<br>
+<table>
+<tr>
+<td width="60%" valign="top">
+<ul>
+  <li>Fragment Tinh </li>
+</ul>
+</td>
+<td width="40%">
+<img src="./Media/bai11.png" width="100%">
+</td>
+</tr>
+</table>
+</details>
+
+
+<details>
+<summary><a href="./BaiTH12FragmentDong/"><b>Bài TH12: Fragment Dong</b></a></summary>
+<br>
+<table>
+<tr>
+<td width="60%" valign="top">
+<ul>
+  <li>Sử dụng Fragment Dynamic</li>
+</ul>
+</td>
+<td width="40%">
+<img src="./Media/bai12.png" width="100%">
+</td>
+</tr>
+</table>
+</details>
+
+<details>
+<summary><a href="./BaiTH13ThayDoiFragment/"><b>Bài TH13: Thay đổi Fragment</b></a></summary>
+<br>
+<table>
+<tr>
+<td width="60%" valign="top">
+<ul>
+  <li>Fragment Tinh </li>
+</ul>
+</td>
+<td width="40%">
+<img src="./Media/bai13.png" width="100%">
+</td>
+</tr>
+</table>
+</details>
+
 <h3>BÀI TẬP LÀM THÊM</h3>
 
 <details>
