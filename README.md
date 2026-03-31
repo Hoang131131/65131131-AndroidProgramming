@@ -298,3 +298,20 @@
 </tr>
 </table>
 </details>
+
+<details>
+<summary><a href="./CallApp/"><b>Ứng dụng gọi điện thoại</b></a></summary>
+<br>
+<table>
+<tr>
+<td width="60%" valign="top">
+<ul>
+  <li>Ứng dụng gọi điện sử dụng Intent</li>
+</ul>
+</td>
+<td width="40%">
+<img src="./Media/call.png" width="100%">
+</td>
+</tr>
+</table>
+</details>
