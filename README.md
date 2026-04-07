@@ -315,3 +315,37 @@
 </tr>
 </table>
 </details>
+
+<details>
+<summary><a href="./ViewpagerCountry/"><b>Ứng dụng View Pager</b></a></summary>
+<br>
+<table>
+<tr>
+<td width="60%" valign="top">
+<ul>
+  <li>Ứng dụng xem ảnh sử dụng View Pager</li>
+</ul>
+</td>
+<td width="40%">
+<img src="./Media/country.png" width="100%">
+</td>
+</tr>
+</table>
+</details>
+
+<details>
+<summary><a href="./AppBar/"><b>Ứng dụng App Bar</b></a></summary>
+<br>
+<table>
+<tr>
+<td width="60%" valign="top">
+<ul>
+  <li>Sử dụng App Bar</li>
+</ul>
+</td>
+<td width="40%">
+<img src="./Media/appbar.png" width="100%">
+</td>
+</tr>
+</table>
+</details>
