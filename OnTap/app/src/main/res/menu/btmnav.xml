@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/sum"
+        android:icon="@drawable/outline_background_dot_small_24"
+        android:title="Sum" />
+    <item
+        android:id="@+id/list"
+        android:icon="@drawable/outline_assignment_24"
+        android:title="List" />
+    <item
+        android:id="@+id/image"
+        android:icon="@drawable/outline_animated_images_24"
+        android:title="Images" />
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/outline_account_circle_24"
+        android:title="Profile" />
+</menu>
