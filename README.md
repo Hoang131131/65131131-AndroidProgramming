@@ -1,4 +1,25 @@
 # Trần Hưng Bảo Hoàng 65131131
+<details>
+<summary><a href="./HelloWorld"><b>Thi Giữa Kỳ 2</b></a></summary>
+<br>
+<table>
+<tr>
+<td width="25%">
+<img src="./Media/gk2.1.png" width="100%">
+</td>
+<td width="25%">
+<img src="./Media/gk2.2.png" width="100%">
+</td>
+<td width="25%">
+<img src="./Media/gk2.3.png" width="100%">
+</td>
+<td width="25%">
+<img src="./Media/gk2.4.png" width="100%">
+</td>
+</tr>
+</table>
+</details>
+
 
 <details>
 <summary><a href="./HelloWorld"><b>Bài TH1: Tạo ứng dụng HelloWorld</b></a></summary>
