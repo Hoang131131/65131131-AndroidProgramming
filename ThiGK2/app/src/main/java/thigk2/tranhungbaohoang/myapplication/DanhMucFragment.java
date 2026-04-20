@@ -35,10 +35,11 @@ public class DanhMucFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View v =inflater.inflate(R.layout.fragment_danh_muc, container, false);
+        listView = v.findViewById(R.id.lvDanhMuc);
         danhmuc = new ArrayList<>();
         danhmuc.add("Việt Nam");
         danhmuc.add("Lào");
-        danhmuc.add("Campuchia");
+        danhmuc.add("Trần Hưng Bảo Hoàng");
         danhmuc.add("Thái Lan");
         danhmuc.add("Singapore");
         danhmuc.add("Hàn Quốc");
@@ -46,6 +47,9 @@ public class DanhMucFragment extends Fragment {
         danhmuc.add("Hoa Kỳ");
         danhmuc.add("Pháp");
         danhmuc.add("Đức");
+
+        adapter = new ArrayAdapter<>(getContext(), android.R.layout.simple_list_item_1,danhmuc);
+        listView.setAdapter(adapter);
 
         // Inflate the layout for this fragment
         return v;

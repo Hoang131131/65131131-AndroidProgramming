@@ -33,6 +33,8 @@ public class MainActivity extends AppCompatActivity {
             int id = item.getItemId();
             if (id==R.id.btnfunc1)
                 fragment=new RectangleFragment();
+            else if (id==R.id.btnfunc2)
+                fragment = new DanhMucFragment();
 
             getSupportFragmentManager().beginTransaction().replace(R.id.frame, fragment).commit();
             return true;
