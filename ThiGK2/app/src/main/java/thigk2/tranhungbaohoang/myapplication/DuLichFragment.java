@@ -33,8 +33,16 @@ public class DuLichFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_du_lich, container, false);
+        listView = v.findViewById(R.id.lvDuLich);
+        duLiches = new ArrayList<>();
+        duLiches.add(new DuLich("Vịnh Hạ Long", "Quảng Ninh", R.drawable.halong));
+        duLiches.add(new DuLich("Phố Cổ Hội An", "Quảng Nam", R.drawable.hoian));
+        duLiches.add(new DuLich("Đảo Phú Quốc", "Kiên Giang", R.drawable.phuquoc));
+        duLiches.add(new DuLich("Sapa", "Lào Cai", R.drawable.sapa));
+        duLiches.add(new DuLich("Tràng An", "Ninh Bình", R.drawable.trangan));
 
-        duLiches.
+        adapter = new DuLichAdapter(getContext(),duLiches);
+        listView.setAdapter(adapter);
 
         return v;
     }

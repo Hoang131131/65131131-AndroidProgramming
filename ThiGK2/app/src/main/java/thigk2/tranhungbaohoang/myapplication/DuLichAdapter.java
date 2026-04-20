@@ -17,6 +17,12 @@ public class DuLichAdapter extends BaseAdapter {
     private List<DuLich> DanhMucDuLich;
     private LayoutInflater inflater;
 
+    public DuLichAdapter(Context context, List<DuLich> danhMucDuLich) {
+        this.context = context;
+        this.DanhMucDuLich = danhMucDuLich;
+        this.inflater = LayoutInflater.from(context);
+    }
+
     @Override
     public int getCount() {
         return DanhMucDuLich.size();
