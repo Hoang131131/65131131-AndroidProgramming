@@ -5,16 +5,16 @@
 <table>
 <tr>
 <td width="25%">
-<img src="./Media/gk2.1.png" width="100%">
+<img src="./Media/GK2.1.png" width="100%">
 </td>
 <td width="25%">
-<img src="./Media/gk2.2.png" width="100%">
+<img src="./Media/GK2.2.png" width="100%">
 </td>
 <td width="25%">
-<img src="./Media/gk2.3.png" width="100%">
+<img src="./Media/GK2.3.png" width="100%">
 </td>
 <td width="25%">
-<img src="./Media/gk2.4.png" width="100%">
+<img src="./Media/GK2.4.png" width="100%">
 </td>
 </tr>
 </table>
