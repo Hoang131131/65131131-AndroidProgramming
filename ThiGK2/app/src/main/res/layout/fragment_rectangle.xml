@@ -52,10 +52,13 @@
         android:id="@+id/btnCalcu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="151dp"
         android:layout_marginTop="60dp"
+        android:layout_marginEnd="151dp"
         android:text="Tính toán"
-        app:layout_constraintTop_toBottomOf="@+id/txtRong"
-        tools:layout_editor_absoluteX="151dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtRong" />
 
     <TextView
         android:id="@+id/textView3"
