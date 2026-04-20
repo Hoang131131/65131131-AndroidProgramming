@@ -35,6 +35,10 @@ public class MainActivity extends AppCompatActivity {
                 fragment=new RectangleFragment();
             else if (id==R.id.btnfunc2)
                 fragment = new DanhMucFragment();
+            else if(id==R.id.btnfunc3)
+                fragment = new DuLichFragment();
+            else if(id==R.id.btnfunc4)
+                fragment = new ProfileFragment();
 
             getSupportFragmentManager().beginTransaction().replace(R.id.frame, fragment).commit();
             return true;
