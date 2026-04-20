@@ -1,6 +1,6 @@
 # Trần Hưng Bảo Hoàng 65131131
 <details>
-<summary><a href="./HelloWorld"><b>Thi Giữa Kỳ 2</b></a></summary>
+<summary><a href="./ThiGK2"><b>Thi Giữa Kỳ 2</b></a></summary>
 <br>
 <table>
 <tr>
