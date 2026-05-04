@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1081328376711",
+    "project_id": "example-51158",
+    "storage_bucket": "example-51158.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081328376711:android:8d6284959673e3f9d7d122",
+        "android_client_info": {
+          "package_name": "ntu.edu.firebaseexample"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1bFZhHZzhDIHFhVaX2A-fE9IwDsyYY-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
