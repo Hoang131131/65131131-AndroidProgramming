@@ -370,3 +370,20 @@
 </tr>
 </table>
 </details>
+
+<details>
+<summary><a href="./FireBaseExample/"><b>Ứng Dụng FireBase</b></a></summary>
+<br>
+<table>
+<tr>
+<td width="60%" valign="top">
+<ul>
+  <li>Sử dụng App Bar</li>
+</ul>
+</td>
+<td width="40%">
+<img src="./Media/FireBase.png" width="100%">
+</td>
+</tr>
+</table>
+</details>
