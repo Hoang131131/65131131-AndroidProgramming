@@ -262,6 +262,44 @@
 </table>
 </details>
 
+<details>
+<summary><a href="./FireBaseExample/"><b>Ứng Dụng FireBase</b></a></summary>
+<br>
+<table>
+<tr>
+<td width="60%" valign="top">
+<ul>
+  <li>Sử dụng Fire Base Realtime Database</li>
+</ul>
+</td>
+<td width="40%">
+<img src="./Media/FireBase.png" width="100%">
+</td>
+</tr>
+</table>
+</details>
+
+<details>
+<summary><a href="./ViecCanLam/"><b>Ứng Dụng To Do List</b></a></summary>
+<br>
+<table>
+<tr>
+<td width="40%" valign="top">
+<ul>
+  <li>Sử dụng FireBase để xây dựng ứng dụng đặt lịch nhắc nhở việc cần làm</li>
+</ul>
+</td>
+<td width="30%">
+<img src="./Media/Todo1.png" width="100%">
+</td>
+</tr>
+<td width="30%">
+<img src="./Media/Todo2.png" width="100%">
+</td>
+</tr>
+</table>
+</details>
+
 <h3>BÀI TẬP LÀM THÊM</h3>
 
 <details>
@@ -371,19 +409,3 @@
 </table>
 </details>
 
-<details>
-<summary><a href="./FireBaseExample/"><b>Ứng Dụng FireBase</b></a></summary>
-<br>
-<table>
-<tr>
-<td width="60%" valign="top">
-<ul>
-  <li>Sử dụng App Bar</li>
-</ul>
-</td>
-<td width="40%">
-<img src="./Media/FireBase.png" width="100%">
-</td>
-</tr>
-</table>
-</details>
