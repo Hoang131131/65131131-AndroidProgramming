@@ -409,13 +409,13 @@
 </details>
 
 <details>
-<summary><a href="./BonusLogin/"><b>Ứng Dụng Login/Sign Up</b></a></summary>
+<summary><a href="./BonusLogin/"><b>Sử dụng FireBase cho Login Sign Up và dùng FileStore để lưu danh sách món ăn</b></a></summary>
 <br>
 <table>
 <tr>
 <td width="40%" valign="top">
 <ul>
-  <li>Xây dựng phần đăngg nhập/ Đăng ký cho ứng dụng</li>
+  <li>Xây dựng phần đăng nhập/ Đăng ký cho ứng dụng</li>
 </ul>
 </td>
 <td width="30%">
@@ -429,6 +429,7 @@
 <td width="40%" valign="top">
 <ul>
   <li>Ứng dụng FileStore vào lập danh sách món ăn và đưa ra món ăn ngẫu nhiên</li>
+  <li>Mỗi người dùng đăng nhập sẽ có một danh sách riêng</li>
 </ul>
 </td>
 <td width="30%">
