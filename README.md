@@ -292,7 +292,6 @@
 <td width="30%">
 <img src="./Media/Todo1.png" width="100%">
 </td>
-</tr>
 <td width="30%">
 <img src="./Media/Todo2.png" width="100%">
 </td>
