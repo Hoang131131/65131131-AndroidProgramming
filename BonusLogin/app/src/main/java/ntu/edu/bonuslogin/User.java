@@ -1,8 +1,5 @@
 package ntu.edu.bonuslogin;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class User {
     public String username, password;
     public User() {}

@@ -50,7 +50,10 @@ public class LoginActivity extends AppCompatActivity {
                         if (userFromDb != null && userFromDb.getPassword() != null) {
                             if (userFromDb.getPassword().equals(pass)) {
                                 Toast.makeText(LoginActivity.this, "Chào mừng " + user + "!", Toast.LENGTH_SHORT).show();
-                                startActivity(new Intent(LoginActivity.this, MainActivity.class));
+                                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                                intent.putExtra("USERNAME", user);
+                                startActivity(intent);
+
                                 finish();
                             } else {
                                 Toast.makeText(LoginActivity.this, "Sai mật khẩu!", Toast.LENGTH_SHORT).show();
@@ -69,7 +72,7 @@ public class LoginActivity extends AppCompatActivity {
         });
 
         tvToRegister.setOnClickListener(v -> {
-            startActivity(new Intent(this, RegisterActivity.class));
+            startActivity(new Intent(LoginActivity.this, RegisterActivity.class));
         });
     }
 }
