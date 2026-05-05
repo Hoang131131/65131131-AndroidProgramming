@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tvTitleReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ĐĂNG KÝ"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:id="@+id/labelUserReg"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Tên tài khoản:"
+        app:layout_constraintTop_toBottomOf="@id/tvTitleReg"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="45dp" />
+
+    <EditText
+        android:id="@+id/edtUserNameReg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:hint="Nhập tên người dùng"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBaseline_toBaselineOf="@id/labelUserReg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/labelUserReg" />
+
+    <TextView
+        android:id="@+id/labelPassReg"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Mật khẩu:"
+        app:layout_constraintTop_toBottomOf="@id/edtUserNameReg"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="30dp" />
+
+    <EditText
+        android:id="@+id/edtPasswordReg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Mật khẩu (>= 6 ký tự)"
+        android:inputType="textPassword"
+        app:layout_constraintBaseline_toBaselineOf="@id/labelPassReg"
+        app:layout_constraintStart_toEndOf="@id/labelPassReg"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/labelConfirmReg"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Nhập lại:"
+        app:layout_constraintTop_toBottomOf="@id/edtPasswordReg"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="30dp" />
+
+    <EditText
+        android:id="@+id/edtConfirmPasswordReg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Xác nhận mật khẩu"
+        android:inputType="textPassword"
+        app:layout_constraintBaseline_toBaselineOf="@id/labelConfirmReg"
+        app:layout_constraintStart_toEndOf="@id/labelConfirmReg"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="10dp"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng ký ngay"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@id/edtConfirmPasswordReg"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:id="@+id/tvToLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đã có tài khoản? Đăng nhập ngay"
+        android:textColor="#2196F3"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="30dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
